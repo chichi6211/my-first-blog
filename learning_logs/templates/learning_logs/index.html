@@ -1,0 +1,14 @@
+{% extends 'learning_logs/base.html' %}
+
+{% block page_header %}
+  <div class="p-3 mb-4 bg-light border rounded-3">
+    <div class="container-fluid py-4">
+      <h1 class="display-3">跟踪您的学习情况</h1>
+
+      <p class="lead">制作自己的学习日志，并保留您正在学习的主题。每当你学到新东西时可以做一个条目来总结你所学到的东西。</p>
+
+      <a class="btn btn-primary btn-lg mt-1"
+          href="{% url 'accounts:register' %}">注册 &raquo;</a>
+    </div>
+  </div>
+{% endblock page_header %}
